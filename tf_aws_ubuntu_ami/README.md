@@ -24,7 +24,7 @@ and then looks up the one you want given the input variables
 ## Example use
 
     module "ami" {
-      source = "github.com/terraform-community-modules/tf_aws_ubuntu_ami"
+      source = "github.com/nextgearcapital/terraform/tf_aws_ubuntu_ami"
       region = "eu-central-1"
       distribution = "trusty"
       architecture = "amd64"
@@ -46,7 +46,7 @@ the _virttype_
 ## ebs
 
     module "ami" {
-      source = "github.com/terraform-community-modules/tf_aws_ubuntu_ami/ebs"
+      source = "github.com/nextgearcapital/terraform/tf_aws_ubuntu_ami/ebs"
       region = "eu-central-1"
       distribution = "trusty"
       instance_type = "m3.large"
@@ -55,7 +55,7 @@ the _virttype_
 ## instance-store
 
     module "ami" {
-      source = "github.com/terraform-community-modules/tf_aws_ubuntu_ami/instance-store"
+      source = "github.com/nextgearcapital/terraform/tf_aws_ubuntu_ami/instance-store"
       region = "eu-central-1"
       distribution = "trusty"
       instance_type = "m3.large"
